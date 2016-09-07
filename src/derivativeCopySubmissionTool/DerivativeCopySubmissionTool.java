@@ -128,8 +128,8 @@ public class DerivativeCopySubmissionTool {
 			String iePid = args[0];
 			String repEntityType = args[1];
 			String repCode = args[2];
-			String sourcePath = args[2];
-			String targetPath = args[2];
+			String sourcePath = args[3];
+			String targetPath = args[4];
 
 			DerivativeCopySubmissionTool tool = new DerivativeCopySubmissionTool(iePid, repEntityType, repCode, sourcePath, targetPath);
 			tool.run();
